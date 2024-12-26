@@ -39,7 +39,7 @@ const verifyToken = (req, res, next) => {
     });
   }
 };
-
+  
 const uri = `mongodb+srv://${process.env.USER}:${process.env.PASS}@cluster0.0o9qayn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
